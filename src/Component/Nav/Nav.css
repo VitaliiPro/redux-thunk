@@ -1,0 +1,27 @@
+header {
+  width: 100%;
+  height: 30vh;
+  background-color: rgb(26, 24, 24);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.link-nav {
+  width: 75px;
+  height: 25px;
+  background-color: rgb(102, 102, 104);
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 10px 15px 10px 15px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.link-nav:focus {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
